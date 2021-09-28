@@ -46,10 +46,10 @@
                     </div>
                 </div>
                 <div class="left-header col-md-5 ">
-                    <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/header-doctor-background.svg" class="img-responsive " id="navbarSideButton" alt="A image" style="width: inherit;" />
+                    <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/header-doctor-background.png" class="img-responsive " id="navbarSideButton" alt="A image" style="width: inherit;" />
                 </div>
                 <div class="left-header-tablet col-md-5 ">
-                    <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/header-doctor-no-background.svg" class="img-responsive " id="navbarSideButton" alt="A image" style="width: inherit;" />
+                    <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/header-doctor-no-background.png" class="img-responsive " id="navbarSideButton" alt="A image" style="width: inherit;" />
                 </div>
 
             </div>
@@ -67,8 +67,12 @@
         </div>
         <div class="third-container row">
             <div class="left-side col-md-5 ">
-                <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/doctor-circle-border.svg" class="img-responsive " id="navbarSideButton" alt="A image" />
+                <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/doctor-circle-border.png" class="img-responsive " id="navbarSideButton" alt="A image" />
             </div>
+            <div class="left-side-tablet col-md-5 ">
+                <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/doctor-circle-border-tablet.png" class="img-responsive " id="navbarSideButton"
+                    alt="A image" />
+        </div>
             <div class="right-header col-md-7">
                 <p class="title">
                     لماذا تختار منزليا؟
@@ -145,7 +149,7 @@
                 </form>
             </div>
             <div class="mobile-container">
-                <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/mobile-app-img.svg">
+                <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/mobile-app-img.png">
             </div>
 
         </div>
