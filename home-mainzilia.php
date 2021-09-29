@@ -42,7 +42,7 @@
                         اول تطبيق يساعدك علي حجز استشارات مع امهر الأطباء بضغطة زر واحدة
                     </p>
                     <div class="button-container">
-                    <a href="https://wa.me/00966553564646" target="_blank"><button>أحجز زيارة الأن</button></a>
+                    <a href="https://wa.me/966553564646" target="_blank"><button>أحجز زيارة الأن</button></a>
                     </div>
                 </div>
                 <div class="left-header col-md-5 ">
