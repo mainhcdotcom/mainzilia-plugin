@@ -165,7 +165,7 @@
             <div class="social-links">
                 <a href="https://www.snapchat.com/add/mainzilia?share_id=NTRGQzIw&locale=ar_SA@calendar=gregorian" target="_blank"><img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/snapchat.svg"></a>
                 <a href="https://www.youtube.com/channel/UCqayY054dXlkjl3fXC7sZ6g" target="_blank"><img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/youtube.svg"></a>
-                <a href="" target="_blank"><img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/linkedin.svg"></a>
+                <!--a href="" target="_blank"><img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/linkedin.svg"></a-->
                 <a href="https://twitter.com/mainzilia" target="_blank"><img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/twitter.svg"></a>
                 <a href="https://www.facebook.com/Mainzilia/" target="_blank"><img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/facebook.svg"></a>
             </div>
