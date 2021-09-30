@@ -39,7 +39,7 @@
                         زيارات منزلية أكثر أمانا
                     </p>
                     <p class="title-content">
-                        اأول تطبيق يقيم المستفيد بشكل كامل بضغطة زر واحدة
+                        أول تطبيق يقيم المستفيد بشكل كامل بضغطة زر واحدة
                     </p>
                     <div class="button-container">
                     <a href="https://wa.me/966553564646" target="_blank"><button>أحجز زيارة الأن</button></a>
