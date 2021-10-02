@@ -10,6 +10,8 @@
     <meta name="description" content="زيارات منزلية أكثر أمانا">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="<?= WP_PLUGIN_URL . '/mainzilia/' ?>style.css" />
     <link rel="icon" href="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/manzilia-icon-header.svg">
 
@@ -19,8 +21,8 @@
 
 <body>
     <div class="body-container">
-        <div class="first-container">
-            <div class="header1">
+        <header class="first-container">
+            <nav class="header1">
                 <div class="img-container">
                     <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/manzilia-icon-header.svg" id="navbarSideButton" alt="A image" />
                 </div>
@@ -29,7 +31,7 @@
                         نسخة تجربية
                     </p>
                 </div>
-            </div>
+            </nav>
             <div class="header2 row">
                 <div class="right-header col-md-7">
                     <div class="img-circle">
@@ -53,8 +55,8 @@
                 </div>
 
             </div>
-        </div>
-        <div class="secound-container">
+        </header>
+        <section data-aos="zoom-in" class="secound-container">
             <p class="text-center">
                 مهمتنا
             </p>
@@ -64,16 +66,16 @@
                 تقديم حلول رقمية مبتكرة تساعد في تحسين جودة الحياة الصحية المنزلية والتي محورها المستفيد, ولكي نساعد
                 الأفراد على الاستقلالية والعيش بكرامة وسعادة في بيئة آمنة
             </p>
-        </div>
-        <div class="third-container row">
-            <div class="left-side col-md-5 ">
+        </section>
+        <section class="third-container row">
+            <div data-aos="zoom-in" class="left-side col-md-5 ">
                 <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/doctor-circle-border.png" class="img-responsive " id="navbarSideButton" alt="A image" />
             </div>
-            <div class="left-side-tablet col-md-5 ">
+            <div data-aos="zoom-in" class="left-side-tablet col-md-5 ">
                 <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/doctor-circle-border-tablet.png" class="img-responsive " id="navbarSideButton"
                     alt="A image" />
-        </div>
-            <div class="right-header col-md-7">
+            </div>
+            <div data-aos="zoom-in" class="right-header col-md-7">
                 <p class="title">
                     لماذا تختار منزليا؟
                 </p>
@@ -95,40 +97,40 @@
 
             </div>
 
-        </div>
-        <div class="forth-container">
+        </section>
+        <section class="forth-container">
             <p class="text-center">
                 خدمات منزليا المختلفة
             </p>
             <hr>
             <div class="list-container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div data-aos="zoom-in" class="col-lg-4 col-md-6 col-xs-12">
                         <p class="listItems">
                             <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/works.svg" class="img-responsive " id="navbarSideButton" alt="A image" style="width: inherit" /><span>منزليا الأعمال</span>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div data-aos="zoom-in" class="col-lg-4 col-md-6 col-xs-12">
                         <p class="listItems">
                             <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/library.svg" class="img-responsive " id="navbarSideButton" alt="A image" /><span>مكتبة منزليا</span>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div data-aos="zoom-in" class="col-lg-4 col-md-6 col-xs-12">
                         <p class="listItems">
                             <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/social.svg" class="img-responsive " id="navbarSideButton" alt="A image" /><span>مجتمع منزليا</span>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div data-aos="zoom-in" class="col-lg-4 col-md-6 col-xs-12">
                         <p class="listItems">
                             <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/services.svg" class="img-responsive " id="navbarSideButton" alt="A image" /><span>خدمات منزليا</span>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div data-aos="zoom-in" class="col-lg-4 col-md-6 col-xs-12">
                         <p class="listItems">
                             <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/training.svg" class="img-responsive " id="navbarSideButton" alt="A image" /><span>التدريب الرقمي</span>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div data-aos="zoom-in" class="col-lg-4 col-md-6 col-xs-12">
                         <p class="listItems">
                             <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/store.svg" class="img-responsive " id="navbarSideButton" alt="A image" /><span>المتجر الالكتروني</span>
                         </p>
@@ -136,8 +138,8 @@
                 </div>
             </div>
 
-        </div>
-        <div class="fifth-container">
+</section>
+        <section class="fifth-container">
             <div class="subscribe-container">
                 <p class="soon">قريبا!</p>
                 <p class="app">إطلاق التطبيق على الأجهزة الذكية</p>
@@ -152,8 +154,8 @@
                 <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/mobile-app-img.png">
             </div>
 
-        </div>
-        <div class="footer">
+        </section>
+        <footer class="footer">
             <div class="footer-logo">
                 <img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/manzilia-icon-footer.svg">
             </div>
@@ -169,7 +171,7 @@
                 <a href="https://twitter.com/mainzilia" target="_blank"><img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/twitter.svg"></a>
                 <a href="https://www.facebook.com/Mainzilia/" target="_blank"><img src="<?= WP_PLUGIN_URL . '/mainzilia/' ?>images/facebook.svg"></a>
             </div>
-        </div>
+        </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -203,6 +205,10 @@
             return false;
 
         })
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(1000);
     </script>
 </body>
 
